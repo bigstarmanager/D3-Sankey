@@ -1,0 +1,271 @@
+{
+  "error": "ESTIMATED_LOSS_GREATER_THAN_MAX_IMPACT",
+  "value": "99.9999999844531015%",
+  "priceRoute": {
+    "giantPath": true,
+    "bestRoute": [
+      {
+        "exchange": "GiantPath",
+        "srcAmount": "999999999999999999999999999999999",
+        "destAmount": "59452459122652505000000000",
+        "percent": 100,
+        "data": {
+          "tokenFrom": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+          "tokenTo": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "gasUSD": "345.006"
+        },
+        "destAmountFeeDeducted": "59452459122652505000000000"
+      }
+    ],
+    "giantRoute": [
+      {
+        "percent": "2",
+        "route": [
+          [
+            {
+              "exchange": "UniswapV2",
+              "srcAmount": "19999999999999999999999999999999.98",
+              "destAmount": "214891853870427135611",
+              "percent": "100",
+              "data": {
+                "router": "0x86d3579b043585A97532514016dCF0C2d6C4b6a1",
+                "path": [
+                  "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                  "0x6b175474e89094c44da98b954eedeac495271d0f"
+                ],
+                "tokenFrom": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                "tokenTo": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                "gasUSD": "31.364"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "percent": "96",
+        "route": [
+          [
+            {
+              "exchange": "UniswapV2",
+              "srcAmount": "199999999999999999999999999999999.8",
+              "destAmount": "9010963341940855133991",
+              "percent": "20.833333333333333333",
+              "data": {
+                "router": "0x86d3579b043585A97532514016dCF0C2d6C4b6a1",
+                "path": [
+                  "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                  "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                ],
+                "tokenFrom": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                "tokenTo": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "gasUSD": "31.364"
+              }
+            },
+            {
+              "exchange": "SushiSwap",
+              "srcAmount": "739999999999999999999999999999999.26",
+              "destAmount": "32817107864792164353303",
+              "percent": "77.083333333333333333",
+              "data": {
+                "router": "0xBc1315CD2671BC498fDAb42aE1214068003DC51e",
+                "path": [
+                  "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                  "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                ],
+                "tokenFrom": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                "tokenTo": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "gasUSD": "31.364"
+              }
+            },
+            {
+              "exchange": "DefiSwap",
+              "srcAmount": "19999999999999999999999999999999.98",
+              "destAmount": "1982551654912402483",
+              "percent": "2.083333333333333333",
+              "data": {
+                "router": "0xF806F9972F9A34FC05394cA6CF2cc606297Ca6D5",
+                "path": [
+                  "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                  "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2"
+                ],
+                "tokenFrom": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                "tokenTo": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "gasUSD": "31.364"
+              }
+            }
+          ],
+          [
+            {
+              "exchange": "UniswapV2",
+              "srcAmount": "10875813977180861800000",
+              "destAmount": "15449513270097060770235499",
+              "percent": "26",
+              "data": {
+                "router": "0x86d3579b043585A97532514016dCF0C2d6C4b6a1",
+                "path": [
+                  "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                  "0x6b175474e89094c44da98b954eedeac495271d0f"
+                ],
+                "tokenFrom": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "tokenTo": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                "gasUSD": "31.364"
+              }
+            },
+            {
+              "exchange": "Paraswappool4",
+              "srcAmount": "836601075167758600000",
+              "destAmount": "1477341234276514281249269",
+              "percent": "2",
+              "data": {
+                "tokenFrom": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "tokenTo": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                "gasUSD": "38.602"
+              }
+            },
+            {
+              "exchange": "SushiSwap",
+              "srcAmount": "25934633330200516600000",
+              "destAmount": "36583030972534336412274495",
+              "percent": "62",
+              "data": {
+                "router": "0xBc1315CD2671BC498fDAb42aE1214068003DC51e",
+                "path": [
+                  "0xc02aaa39b223fe8d0a0e5c4f27ead9083c756cc2",
+                  "0x6b175474e89094c44da98b954eedeac495271d0f"
+                ],
+                "tokenFrom": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "tokenTo": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                "gasUSD": "31.364"
+              }
+            },
+            {
+              "exchange": "Bancor",
+              "srcAmount": "4183005375838793000000",
+              "destAmount": "5940256768716223000000000",
+              "percent": "10",
+              "data": {
+                "path": [
+                  "0xEeeeeEeeeEeEeeEeEeEeeEEEeeeeEeeeeeeeEEeE",
+                  "0xb1CD6e4153B2a390Cf00A6556b0fC1458C4A5533",
+                  "0x1F573D6Fb3F13d689FF844B4cE37794d79a7FF1C",
+                  "0xE5Df055773Bf9710053923599504831c7DBdD697",
+                  "0x6B175474E89094C44Da98b954EedeAC495271d0F"
+                ],
+                "tokenFrom": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee",
+                "tokenTo": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                "gasUSD": "48.253"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "percent": "2",
+        "route": [
+          [
+            {
+              "exchange": "UniswapV2",
+              "srcAmount": "19999999999999999999999999999999.98",
+              "destAmount": "2103181699",
+              "percent": "100",
+              "data": {
+                "router": "0x86d3579b043585A97532514016dCF0C2d6C4b6a1",
+                "path": [
+                  "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                  "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48"
+                ],
+                "tokenFrom": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+                "tokenTo": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "gasUSD": "31.364"
+              }
+            }
+          ],
+          [
+            {
+              "exchange": "ParaSwapPool",
+              "srcAmount": "2103181699",
+              "destAmount": "2101985669154251231049",
+              "percent": "100",
+              "data": {
+                "tokenFrom": "0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48",
+                "tokenTo": "0x6b175474e89094c44da98b954eedeac495271d0f",
+                "gasUSD": "38.602"
+              }
+            }
+          ]
+        ]
+      }
+    ],
+    "blockNumber": 12023121,
+    "destAmount": "59452459122652505000000000",
+    "srcAmount": "999999999999999999999999999999999",
+    "others": [
+      {
+        "exchange": "Uniswap",
+        "rate": "0",
+        "unit": "0",
+        "data": {
+          "factory": "0xc0a47dFe034B400B47bDaD5FecDa2621de6c4d95",
+          "tokenFrom": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+          "tokenTo": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "gasUSD": "19.301"
+        },
+        "rateFeeDeducted": "0",
+        "unitFeeDeducted": "0"
+      },
+      {
+        "exchange": "ParaSwapPool",
+        "rate": "0",
+        "unit": "0",
+        "data": {
+          "tokenFrom": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+          "tokenTo": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "gasUSD": "38.602"
+        },
+        "rateFeeDeducted": "0",
+        "unitFeeDeducted": "0"
+      },
+      {
+        "exchange": "UniswapV2",
+        "rate": "214891853870432718330",
+        "unit": "140434952876283200985",
+        "data": {
+          "router": "0x86d3579b043585A97532514016dCF0C2d6C4b6a1",
+          "path": [
+            "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+            "0x6b175474e89094c44da98b954eedeac495271d0f"
+          ],
+          "tokenFrom": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+          "tokenTo": "0x6b175474e89094c44da98b954eedeac495271d0f",
+          "gasUSD": "31.364"
+        },
+        "rateFeeDeducted": "214891853870432718330",
+        "unitFeeDeducted": "140434952876283200985"
+      },
+      {
+        "exchange": "GiantPath",
+        "rate": "59452459122652505000000000",
+        "unit": "0",
+        "rateFeeDeducted": "59452459122652505000000000",
+        "unitFeeDeducted": "0"
+      }
+    ],
+    "side": "SELL",
+    "details": {
+      "tokenFrom": "0x7fc66500c84a76ad7e9c93437bfc5ac33e2ddae9",
+      "tokenTo": "0x6b175474e89094c44da98b954eedeac495271d0f",
+      "srcAmount": "999999999999999999999999999999999",
+      "destAmount": "59452459122652505000000000"
+    },
+    "bestRouteGas": "1506617",
+    "bestRouteGasCostUSD": "360",
+    "fromUSD": "382559999999999999.9999999999",
+    "toUSD": "59476215.1362687344",
+    "priceWithSlippage": "58857934531425979950000000",
+    "destAmountFeeDeducted": "59452459122652505000000000",
+    "toUSDFeeDeducted": "59476215.1362687344",
+    "multiRoute": [],
+    "spender": "0xb69F9Cd6c9Dfe547Ff83c1eB153A8A0Abd7adcD9",
+    "version": "3.0.0"
+  }
+}
